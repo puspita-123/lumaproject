@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-13T13:03:49 IST" name="Default suite" finished-at="2024-05-13T13:04:10 IST" duration-ms="20452">
+    <groups>
+    </groups>
+    <test started-at="2024-05-13T13:03:49 IST" name="Default test" finished-at="2024-05-13T13:04:10 IST" duration-ms="20452">
+      <class name="testngassignment.DataproviderDemoguru">
+        <test-method is-config="true" signature="LaunchDriver()[pri:0, instance:testngassignment.DataproviderDemoguru@26e356f0]" started-at="2024-05-13T13:03:41 IST" name="LaunchDriver" finished-at="2024-05-13T13:03:49 IST" duration-ms="8861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchDriver -->
+        <test-method signature="EnterCredentials(java.lang.String,java.lang.String)[pri:0, instance:testngassignment.DataproviderDemoguru@26e356f0]" started-at="2024-05-13T13:03:50 IST" name="EnterCredentials" data-provider="DataSet" finished-at="2024-05-13T13:03:57 IST" duration-ms="7309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123@a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterCredentials -->
+        <test-method signature="EnterCredentials(java.lang.String,java.lang.String)[pri:0, instance:testngassignment.DataproviderDemoguru@26e356f0]" started-at="2024-05-13T13:03:57 IST" name="EnterCredentials" data-provider="DataSet" finished-at="2024-05-13T13:04:03 IST" duration-ms="6451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[567@e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterCredentials -->
+        <test-method signature="EnterCredentials(java.lang.String,java.lang.String)[pri:0, instance:testngassignment.DataproviderDemoguru@26e356f0]" started-at="2024-05-13T13:04:03 IST" name="EnterCredentials" data-provider="DataSet" finished-at="2024-05-13T13:04:10 IST" duration-ms="6578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[efg@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456@r]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterCredentials -->
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:testngassignment.DataproviderDemoguru@26e356f0]" started-at="2024-05-13T13:04:10 IST" name="CloseDriver" finished-at="2024-05-13T13:04:10 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- testngassignment.DataproviderDemoguru -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
